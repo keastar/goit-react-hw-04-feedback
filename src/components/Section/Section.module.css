@@ -1,0 +1,10 @@
+.task1__title {
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+}
+
+.h5 {
+    margin: 20px 0;
+    font-size: 20px;
+}

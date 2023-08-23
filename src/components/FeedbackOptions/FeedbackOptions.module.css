@@ -1,0 +1,17 @@
+.task1__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 20px 0; */
+
+}
+
+.task1__buttons_btn {
+    margin-right: 10px;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
