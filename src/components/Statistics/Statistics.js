@@ -2,7 +2,7 @@ import React from 'react';
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
-const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+const Statistics = ({ good, neutral, bad, total, PositivePercentage }) => {
   return (
     <div className={css.task1}>
       <div className={css.task1__text}>
@@ -19,7 +19,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
           Total:<span>{total}</span>
         </p>
         <p className={css.task1__text_p}>
-          Positive Percentage:<span>{positivePercentage}%</span>
+          Positive Percentage:<span>{PositivePercentage}%</span>
         </p>
       </div>
     </div>
@@ -31,7 +31,7 @@ Statistics.propTypes = {
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
-  positivePercentage: PropTypes.number.isRequired,
+  PositivePercentage: PropTypes.number.isRequired,
 };
 
 export default Statistics;
