@@ -9,7 +9,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <div className={css.task1__buttons}>
       {optionList.map(option => (
         <button
-          key={shortid.generate()}
+          key={option}
           type="button"
           name={option}
           onClick={onLeaveFeedback}
